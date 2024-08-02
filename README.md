@@ -1,4 +1,5 @@
-# Simple library easily manage environmental variables
+# Simple library made to easily manage environmental variables
 
-## Import the module into your project:
+Import the module into your project:
+
 `go get github.com/1001bit/overenv`
