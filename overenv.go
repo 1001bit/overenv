@@ -4,15 +4,9 @@ import (
 	"fmt"
 	"os"
 	"reflect"
-
-	"github.com/joho/godotenv"
 )
 
 const tagName = "env"
-
-func DotEnvLoad() {
-	godotenv.Load()
-}
 
 func Get(key string) string {
 	return os.Getenv(key)
